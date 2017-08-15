@@ -12,4 +12,26 @@ You are lost in the labyrinth that is a poorly organized file folder directory. 
     - `run`
     - `cd`
     - possibility of saving variables as "inventory"
-- 
+
+### Usage
+Run `npm install`
+
+- `npm start`
+  - builds files from `./src/index.js` as an entry point
+  - places files into `./build`
+  - serves `./build`
+  - watches `./src` for specific file types
+
+- `npm test` (doesn't actually run tests)
+  - builds minified files from `./src/index.js` as an entry point
+  - places files into `./build`
+  - builds a single html file and moves assets into `./compile`
+  - serves `./compile`
+  - watches `./src` for specific file types
+
+- `npm run package`
+  - builds minified files from `./src/index.js` as an entry point
+  - places files into `./build`
+  - builds a single html file and moves assets into `./compile`
+  - zips `./compile` into a `./releases`
+>>>>>>> 975850f3135482e312b6a7700d01e5e07d4b598c

@@ -57,3 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
+# Build artifacts
+build/
+compile/
+releases/
+
+# VSCode
+.vscode/
