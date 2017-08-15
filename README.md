@@ -11,7 +11,7 @@ You are lost in the labyrinth that is a poorly organized file folder directory. 
     - `ls`
     - `run`
     - `cd`
-    - possibility of saving variables as "inventory"
+- possibility of saving variables as "inventory"
 
 ### Usage
 Run `npm install`
