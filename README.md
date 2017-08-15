@@ -34,4 +34,3 @@ Run `npm install`
   - places files into `./build`
   - builds a single html file and moves assets into `./compile`
   - zips `./compile` into a `./releases`
->>>>>>> 975850f3135482e312b6a7700d01e5e07d4b598c
