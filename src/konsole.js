@@ -1,14 +1,11 @@
 import state from './state'
+import output from './output'
+import out from './sample_output'
 
 const commands = {
   clear: () => state.set({ screen: [] }),
-  ls: () => state.set({
-    screen: [
-      ...state.get().screen,
-      '.',
-      '..'
-    ]
-  })
+  ls: () => output.stream(['.', '..']),
+  cat: () => output.stream(out)
 }
 
 export default {
